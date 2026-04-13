@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arianna Camacho — Diseño que resalta tu esencia</title>
+  <meta name="description" content="Arianna Camacho. Diseñadora de moda colombiana. Creadora de Carivé, línea de ropa de playa de lujo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="carive_styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════ CURSOR ══════════════ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ══════════════ NAV ══════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Arianna Camacho</a>
+
+      <ul class="nav__links">
+        <li><a href="#about">La Diseñadora</a></li>
+        <li><a href="#moda">Moda</a></li>
+        <li><a href="#carive">Carivé</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <button class="nav__burger" id="burger" aria-label="Menú">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mob">La Diseñadora</a></li>
+        <li><a href="#moda" class="mob">Moda</a></li>
+        <li><a href="#carive" class="mob">Carivé</a></li>
+        <li><a href="#lookbook" class="mob">Lookbook</a></li>
+        <li><a href="#contact" class="mob">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__media">
+      <img
+        src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1800&q=90&auto=format&fit=crop&crop=top"
+        alt="Arianna Camacho"
+        class="hero__img"
+      />
+      <div class="hero__veil"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow fade-up">Barranquilla · Colombia</p>
+      <h1 class="hero__name fade-up delay-1">Arianna<br/><em>Camacho</em></h1>
+      <p class="hero__tagline fade-up delay-2">Diseño que resalta<br/>tu esencia</p>
+      <a href="#moda" class="hero__cta fade-up delay-3">
+        <span>Ver colección</span>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1v14M1 8l7 7 7-7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ INTRO MARQUEE ══════════════ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Alta Costura</span><span class="sep">✦</span>
+      <span>Moda de Playa</span><span class="sep">✦</span>
+      <span>Diseño Exclusivo</span><span class="sep">✦</span>
+      <span>Carivé</span><span class="sep">✦</span>
+      <span>Barranquilla</span><span class="sep">✦</span>
+      <span>Alta Costura</span><span class="sep">✦</span>
+      <span>Moda de Playa</span><span class="sep">✦</span>
+      <span>Diseño Exclusivo</span><span class="sep">✦</span>
+      <span>Carivé</span><span class="sep">✦</span>
+      <span>Barranquilla</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+
+        <div class="about__visual reveal">
+          <div class="about__img-frame">
+            <img
+              src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=88&auto=format&fit=crop&crop=top"
+              alt="Arianna Camacho, diseñadora"
+              class="about__img"
+            />
+          </div>
+          <div class="about__accent-text" aria-hidden="true">AC</div>
+        </div>
+
+        <div class="about__content">
+          <p class="label reveal">La Diseñadora</p>
+          <h2 class="heading-serif reveal delay-1">
+            Donde la elegancia<br/><em>encuentra el mar</em>
+          </h2>
+          <div class="about__body reveal delay-2">
+            <p>Arianna Camacho es una diseñadora de moda colombiana cuya visión nació entre la vitalidad caribeña de Barranquilla y la sofisticación de la alta costura internacional. Cada pieza que crea es un diálogo entre la feminidad y la fuerza.</p>
+            <p>Su trabajo es una oda a la mujer contemporánea: segura, sensual, libre. Con técnicas artesanales y materiales cuidadosamente seleccionados, Arianna transforma el tejido en declaraciones de identidad.</p>
+          </div>
+
+          <div class="about__stats reveal delay-3">
+            <div class="about__stat">
+              <span class="about__stat-n">8+</span>
+              <span class="about__stat-l">Años de trayectoria</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-n">2</span>
+              <span class="about__stat-l">Líneas de diseño</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-n">∞</span>
+              <span class="about__stat-l">Mujeres inspiradas</span>
+            </div>
+          </div>
+
+          <blockquote class="about__quote reveal delay-4">
+            "La ropa no te viste. Te dice al mundo quién eres antes de que abras la boca."
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MODA ══════════════ -->
+  <section class="collection section" id="moda">
+    <div class="container">
+      <div class="collection__header reveal">
+        <p class="label">Línea Principal</p>
+        <h2 class="heading-serif">Arianna Camacho<br/><em>Moda</em></h2>
+        <p class="collection__desc">Vestidos que esculpen siluetas. Diseños que permanecen en la memoria.</p>
+      </div>
+
+      <div class="collection__grid collection__grid--moda">
+
+        <div class="piece piece--tall reveal">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=88&auto=format&fit=crop&crop=top" alt="Vestido elegante" loading="lazy" />
+            <div class="piece__hover">
+              <span>Vestido Magnolia</span>
+              <em>Colección Otoño</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-1">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700&q=88&auto=format&fit=crop&crop=top" alt="Vestido tejido" loading="lazy" />
+            <div class="piece__hover">
+              <span>Vestido Tejido Coral</span>
+              <em>Artesanal</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-2">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=700&q=88&auto=format&fit=crop&crop=top" alt="Vestido nude" loading="lazy" />
+            <div class="piece__hover">
+              <span>Vestido Dune</span>
+              <em>Edición Limitada</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece piece--wide reveal delay-3">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1601762603339-fd61e28b698a?w=1000&q=88&auto=format&fit=crop&crop=top" alt="Look de moda" loading="lazy" />
+            <div class="piece__hover">
+              <span>Look Ivory</span>
+              <em>Prêt-à-porter</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-4">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700&q=88&auto=format&fit=crop&crop=top" alt="Vestido rosa" loading="lazy" />
+            <div class="piece__hover">
+              <span>Vestido Rosé</span>
+              <em>Colección Verano</em>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ DIVIDER EDITORIAL ══════════════ -->
+  <div class="editorial-divider reveal">
+    <div class="editorial-divider__line"></div>
+    <p class="editorial-divider__text">Carivé</p>
+    <div class="editorial-divider__line"></div>
+  </div>
+
+  <!-- ══════════════ CARIVÉ ══════════════ -->
+  <section class="carive section" id="carive">
+    <div class="carive__intro reveal">
+      <div class="container">
+        <p class="label">Línea de playa</p>
+        <h2 class="heading-serif">El mar como<br/><em>pasarela</em></h2>
+        <p class="carive__desc">Carivé es la extensión natural del alma de Arianna: donde la arena, el agua y la elegancia se fusionan en prendas que son arte portátil.</p>
+      </div>
+    </div>
+
+    <div class="carive__feature">
+      <div class="carive__feature-img reveal">
+        <img
+          src="https://images.unsplash.com/photo-1590502160462-58b41354f588?w=1000&q=88&auto=format&fit=crop&crop=top"
+          alt="Carivé ropa de playa"
+          loading="lazy"
+        />
+      </div>
+      <div class="carive__feature-content reveal delay-2">
+        <p class="label">Colección principal</p>
+        <h3 class="heading-serif">Libertad<br/><em>en movimiento</em></h3>
+        <p>Cada prenda Carivé nació para acompañar a la mujer en su momento más libre: el encuentro con el mar. Tejidos ligeros, cortes estudiados, colores que dialogan con el horizonte.</p>
+        <a href="#contact" class="btn-text">Solicitar piezas →</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="carive__grid">
+
+        <div class="piece reveal">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1596783047170-b3b4d5b8e9b4?w=700&q=88&auto=format&fit=crop&crop=top" alt="Vestido de baño" loading="lazy" />
+            <div class="piece__hover">
+              <span>Traje Sirena</span>
+              <em>Carivé Swim</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-1">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=88&auto=format&fit=crop&crop=top" alt="Pareo de playa" loading="lazy" />
+            <div class="piece__hover">
+              <span>Pareo Brisa</span>
+              <em>Carivé Beach</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-2">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1562547256-2c5ee93b60b7?w=700&q=88&auto=format&fit=crop&crop=top" alt="Look de playa" loading="lazy" />
+            <div class="piece__hover">
+              <span>Conjunto Espuma</span>
+              <em>Carivé Resort</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="piece reveal delay-3">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=700&q=88&auto=format&fit=crop&crop=top" alt="Bikini de lujo" loading="lazy" />
+            <div class="piece__hover">
+              <span>Bikini Nácar</span>
+              <em>Carivé Swim</em>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ LOOKBOOK ══════════════ -->
+  <section class="lookbook section" id="lookbook">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="label">Editorial</p>
+        <h2 class="heading-serif">Lookbook<br/><em>2025</em></h2>
+      </div>
+
+      <div class="lookbook__grid">
+        <div class="lk lk--1 reveal">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027614b3?w=800&q=88&auto=format&fit=crop&crop=top" alt="Look editorial" loading="lazy"/>
+            <div class="piece__hover"><span>Vol. 01</span></div>
+          </div>
+        </div>
+        <div class="lk lk--2 reveal delay-1">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=88&auto=format&fit=crop&crop=top" alt="Look editorial" loading="lazy"/>
+            <div class="piece__hover"><span>Vol. 02</span></div>
+          </div>
+        </div>
+        <div class="lk lk--3 reveal delay-2">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=600&q=88&auto=format&fit=crop&crop=top" alt="Look editorial" loading="lazy"/>
+            <div class="piece__hover"><span>Vol. 03</span></div>
+          </div>
+        </div>
+        <div class="lk lk--4 reveal delay-3">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=88&auto=format&fit=crop" alt="Look editorial" loading="lazy"/>
+            <div class="piece__hover"><span>Vol. 04</span></div>
+          </div>
+        </div>
+        <div class="lk lk--5 reveal delay-4">
+          <div class="piece__img-wrap">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=88&auto=format&fit=crop&crop=top" alt="Look editorial" loading="lazy"/>
+            <div class="piece__hover"><span>Vol. 05</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ NOVEDADES ══════════════ -->
+  <section class="news section" id="news">
+    <div class="container">
+      <div class="news__inner">
+        <div class="news__content reveal">
+          <p class="label">Última colección</p>
+          <h2 class="heading-serif">Carivé<br/><em>Primavera 2025</em></h2>
+          <p class="news__body">Una colección que celebra la dualidad: la calma del atardecer y la intensidad del agua. Tejidos con hilos de seda natural, colores que van del blanco luminoso al rosa profundo.</p>
+          <p class="news__body">Disponible en piezas únicas y bajo pedido. Cada creación lleva la firma y el número de serie de Arianna.</p>
+          <a href="#contact" class="btn-outline reveal delay-2">Consultar disponibilidad</a>
+        </div>
+        <div class="news__visual reveal delay-1">
+          <img
+            src="https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=900&q=88&auto=format&fit=crop&crop=top"
+            alt="Carivé Primavera 2025"
+            loading="lazy"
+          />
+          <div class="news__tag">Nueva colección</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+
+        <div class="contact__info reveal">
+          <p class="label">Contacto</p>
+          <h2 class="heading-serif">Hagamos algo<br/><em>extraordinario</em></h2>
+          <p class="contact__desc">Para encargos personalizados, colaboraciones editoriales o adquirir piezas de las colecciones, escríbenos. Respondemos en menos de 24 horas.</p>
+
+          <div class="contact__links">
+            <a href="mailto:hola@ariennacamacho.com" class="contact__link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.5"/></svg>
+              hola@arianacamacho.com
+            </a>
+            <a href="https://instagram.com/arianacamacho" target="_blank" rel="noopener" class="contact__link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @arianacamacho
+            </a>
+            <a href="https://instagram.com/carive_oficial" target="_blank" rel="noopener" class="contact__link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @carive_oficial
+            </a>
+          </div>
+        </div>
+
+        <form class="contact__form reveal delay-2" id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo</label>
+            <input type="email" id="email" placeholder="tu@correo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="interes">Interés</label>
+            <select id="interes" required>
+              <option value="">Selecciona una opción</option>
+              <option>Piezas Arianna Camacho</option>
+              <option>Colección Carivé</option>
+              <option>Encargo personalizado</option>
+              <option>Colaboración editorial</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Cuéntame sobre tu visión…"></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar mensaje</button>
+          <div class="form-success" id="formSuccess">
+            <p>✦ Mensaje recibido. Te escribimos pronto.</p>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__name">Arianna Camacho</p>
+          <p class="footer__sub">& Carivé</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#about">La Diseñadora</a>
+          <a href="#moda">Moda</a>
+          <a href="#carive">Carivé</a>
+          <a href="#lookbook">Lookbook</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+        <div class="footer__social">
+          <a href="https://instagram.com/arianacamacho" target="_blank" rel="noopener" aria-label="Instagram Arianna">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://instagram.com/carive_oficial" target="_blank" rel="noopener" aria-label="Instagram Carivé">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Arianna Camacho · Carivé. Todos los derechos reservados.</p>
+        <p>Diseñado con amor en Barranquilla, Colombia ✦</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════ WHATSAPP ══════════════ -->
+  <a
+    href="https://wa.me/573000000000?text=Hola%20Arianna%2C%20me%20interesa%20conocer%20tu%20colección"
+    class="wa-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="WhatsApp"
+  >
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <script src="carive_script.js"></script>
+</body>
+</html>
